@@ -1,0 +1,31 @@
+body {
+	background: url(http://www.snoron.com/walls/green_bamboo_background-wide.jpg);
+	padding-top: 90px;
+	padding-bottom: 40px;
+	color: white;
+}
+.navbar .nav {
+	float:none;
+	display:inline-block;
+}
+
+.navbar-inner {
+	text-align:center;
+}
+.well {
+<!--opacity: 0.5;-->
+<!--background-color: #1D731A;-->
+	background-color: rgba(0,0,0,0.9);
+}
+.well2 {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.9);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+	padding: 10px 40px;
+}
