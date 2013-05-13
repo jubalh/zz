@@ -5,6 +5,16 @@ body {
 	padding-bottom: 40px;
 	color: white;
 }
+
+.kursiv {
+	font-style: italic;
+}
+
+.youtube-player {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .navbar .nav {
 	float:none;
 	display:inline-block;
